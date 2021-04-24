@@ -34,7 +34,7 @@ until [ "$selection" = "0" ]; do
   case $selection in
     3 ) clear ; menu_option_three ; press_enter ;;
     4 ) clear ; menu_option_four ; press_enter ;;
-    0 ) clear ; spa.s ;;
+    0 ) clear ; spa+s ;;
     * ) clear ; incorrect_selection ; press_enter ;;
   esac
 done 
