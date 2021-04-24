@@ -1,13 +1,11 @@
 #!/bin/bash
 
-menu_option_one() {
+menu_option_three() {
   echo "        Performance settings"
-  menu_option_three() {
-  echo "        Language settings"
 }
 
 menu_option_four() {
-  echo "        spa mod created by: Zaedian"
+  echo "        Language settings"
 }
 
 press_enter() {
@@ -20,6 +18,8 @@ press_enter() {
 incorrect_selection() {
   echo "Incorrect selection! Try again."
 }
+
+menu_option_one() {
 
 until [ "$selection" = "0" ]; do
   clear
