@@ -1,11 +1,11 @@
 #!/bin/bash
 
 menu_option_one() {
-  echo "        Settings for alpine++"
+  echo "        Settings for alpine++ spa mod"
 }
 
 menu_option_two() {
-  echo "        Alpine++ created by: Zaedian"
+  echo "        Alpine++ spa mod created by: Zaedian"
 }
 
 press_enter() {
