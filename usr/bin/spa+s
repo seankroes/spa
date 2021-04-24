@@ -34,7 +34,7 @@ until [ "$selection" = "0" ]; do
   case $selection in
     3 ) clear ; menu_option_three ; press_enter ;;
     4 ) clear ; menu_option_four ; press_enter ;;
-    0 ) clear ; exit ;;
+    0 ) clear ; spa.settings ;;
     * ) clear ; incorrect_selection ; press_enter ;;
   esac
 done 
@@ -68,7 +68,7 @@ until [ "$selection" = "0" ]; do
   case $selection in
     1 ) clear ; menu_option_one ; press_enter ;;
     2 ) clear ; menu_option_two ; press_enter ;;
-    0 ) clear ; exit ;;
+    0 ) clear ; spa ;;
     * ) clear ; incorrect_selection ; press_enter ;;
   esac
 done 
