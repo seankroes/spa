@@ -1,6 +1,6 @@
 #!/bin/bash
 echo " "
-echo "You can change the motd with these two steps:"
-echo "Step 1: type in:  cd /etc"
-echo "Step 2: type in: nano motd"
+echo "You can change the motd with these two commands:"
+echo "Step 1:  cd /etc"
+echo "Step 2:  nano motd"
 echo " "
