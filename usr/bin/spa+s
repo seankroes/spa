@@ -26,7 +26,7 @@ until [ "$selection" = "0" ]; do
   echo ""
   echo "    	3  -  Performance"
   echo "    	4  -  Language"
-  echo "    	0  -  Exit"
+  echo "    	0  -  Back"
   echo ""
   echo -n "  Enter selection: "
   read selection
