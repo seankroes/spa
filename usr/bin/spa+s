@@ -2,11 +2,11 @@
 
 menu_option_one() {
   echo "        Performance settings"
-  menu_option_one() {
+  menu_option_three() {
   echo "        Language settings"
 }
 
-menu_option_two() {
+menu_option_four() {
   echo "        spa mod created by: Zaedian"
 }
 
@@ -24,16 +24,16 @@ incorrect_selection() {
 until [ "$selection" = "0" ]; do
   clear
   echo ""
-  echo "    	1  -  Performance"
-  echo "    	2  -  Language"
+  echo "    	3  -  Performance"
+  echo "    	4  -  Language"
   echo "    	0  -  Exit"
   echo ""
   echo -n "  Enter selection: "
   read selection
   echo ""
   case $selection in
-    1 ) clear ; menu_option_one ; press_enter ;;
-    2 ) clear ; menu_option_two ; press_enter ;;
+    3 ) clear ; menu_option_three ; press_enter ;;
+    4 ) clear ; menu_option_four ; press_enter ;;
     0 ) clear ; exit ;;
     * ) clear ; incorrect_selection ; press_enter ;;
   esac
