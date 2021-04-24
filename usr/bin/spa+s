@@ -23,7 +23,7 @@ until [ "$selection" = "0" ]; do
   clear
   echo ""
   echo "    	1  -  Settings"
-  echo "    	2  -  Credits"
+  echo "    	2  -  About"
   echo "    	0  -  Exit"
   echo ""
   echo -n "  Enter selection: "
